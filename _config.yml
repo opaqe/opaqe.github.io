@@ -9,7 +9,7 @@ url: "https://opaqe.github.io"
 baseurl: ""
 
 # ── 테마 & 플러그인 ───────────────────────────────────────────
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed       # /feed.xml RSS
   - jekyll-seo-tag    # <head> SEO/OG 메타태그
