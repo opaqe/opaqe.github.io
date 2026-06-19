@@ -4,9 +4,8 @@ description: "웹·프론트엔드 개발 기록"
 author: "Ayden"
 lang: ko-KR
 
-# 배포 URL (사용자 페이지: username.github.io)
-# TODO: 실제 GitHub 사용자명에 맞게 확인/수정
-url: "https://ayden.github.io"
+# 배포 URL (사용자 페이지: https://opaqe.github.io/)
+url: "https://opaqe.github.io"
 baseurl: ""
 
 # ── 테마 & 플러그인 ───────────────────────────────────────────
