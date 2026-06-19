@@ -1,0 +1,43 @@
+# ── 사이트 정보 ───────────────────────────────────────────────
+title: "Ayden's Tech Blog"
+description: "웹·프론트엔드 개발 기록"
+author: "Ayden"
+lang: ko-KR
+
+# 배포 URL (사용자 페이지: username.github.io)
+# TODO: 실제 GitHub 사용자명에 맞게 확인/수정
+url: "https://ayden.github.io"
+baseurl: ""
+
+# ── 테마 & 플러그인 ───────────────────────────────────────────
+theme: minima
+plugins:
+  - jekyll-feed       # /feed.xml RSS
+  - jekyll-seo-tag    # <head> SEO/OG 메타태그
+  - jekyll-sitemap    # /sitemap.xml
+
+minima:
+  skin: auto          # 라이트/다크 자동
+
+# ── 마크다운 & URL ────────────────────────────────────────────
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Seoul
+
+# ── 글 기본값 ─────────────────────────────────────────────────
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# ── 빌드 제외 ─────────────────────────────────────────────────
+exclude:
+  - AGENTS.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
