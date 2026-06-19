@@ -18,5 +18,5 @@ permalink: /spring/
   {% endfor %}
 </ul>
 {% else %}
-<p>아직 Spring 글이 없습니다. <code>categories: spring</code> 으로 글을 작성하면 여기에 모입니다.</p>
+<p>아직 Spring Boot 글이 없습니다. <code>categories: spring</code> 으로 글을 작성하면 여기에 모입니다.</p>
 {% endif %}
